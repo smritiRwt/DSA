@@ -1,8 +1,6 @@
-
-
 public class PrintStringFromNumber {
-
     public static void printString(int n) {
+
         int num = 0;
         String[] newarray2 = new String[]{"Zero", "One", "two", "three", "four", "five", "six", "Seven", "eight", "nine"};
 
@@ -16,7 +14,7 @@ public class PrintStringFromNumber {
             // for (int i = 0; i < digitLength; i++) {
             int rem = num % 10;
             System.out.print(newarray2[rem]+" ");
-            // n = n * 10 + ;
+            // n = n * 10 + ;  
             // switch (rem) {
             //     case 4:
             //         newarray1[elementcount] = "Four";
